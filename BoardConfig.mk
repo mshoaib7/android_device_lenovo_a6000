@@ -49,6 +49,9 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
 # CPUSETS
 ENABLE_CPUSETS := true
 
+#PowerHal
+TARGET_PROVIDES_POWERHAL := true
+
 #DEXPOT
 ifeq ($(HOST_OS),linux)
     ifeq ($(TARGET_BUILD_VARIANT),user)
