@@ -121,7 +121,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    SnapdragonCamera
 
 # Permissions
 PRODUCT_COPY_FILES += \
