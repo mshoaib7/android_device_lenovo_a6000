@@ -296,6 +296,10 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+# SELinux
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1
+
 # Init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
