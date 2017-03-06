@@ -194,7 +194,9 @@ TARGET_USES_MEDIA_EXTENSIONS := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
+BOARD_SEPOLICY_DIRS += \
+    $(LOCAL_PATH)/sepolicy \
+    $(LOCAL_PATH)/charger/sepolicy
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
