@@ -144,7 +144,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     Gello
 
-# On boot audio lineout config
+
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    cm_charger_res_images \
+    font_log.png \
+    libhealthd.cm
+
+# On boot audio lineout config 
 PRODUCT_PACKAGES += \
     init.lineout.sh
 
